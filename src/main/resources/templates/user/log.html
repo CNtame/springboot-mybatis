@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" th:href="@{/css/mystype.css}">
+</head>
+<body>
+<h3><a href="/">首页</a> </h3>
+    <form action="/log1" method="post">
+        <p>
+            账号<input type="text" name="name">
+        </p>
+        <p>
+            密码<input type="text" name="password">
+        </p>
+        <p>
+            <select name="power">
+                <option value="1">用户</option>
+                <option value="2">管理员</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" name="button" id="button1" value="登陆">
+            <!--<input type="submit" name="button" id="button2" value="注册">-->
+        </p>
+    </form>
+</body>
+</html>

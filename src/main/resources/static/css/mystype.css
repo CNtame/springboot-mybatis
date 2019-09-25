@@ -1,0 +1,33 @@
+#s_top_wrap {
+    position: absolute;
+    z-index: 99;
+    min-width: 1000px;
+    width: 100%;
+}
+#hd {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    width: 100%;
+    background: #d22222;
+}
+#nav {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+    height: 35px;
+    font-size: 14px;
+}
+.tb-nav {
+    float: right;
+}
+.tb-item {
+    position: relative;
+    float: left;
+}
+.prelogin {
+    margin-top: 7px;
+    padding: 0 20px;
+    color: #fff;
+}
